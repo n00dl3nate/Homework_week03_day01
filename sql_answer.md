@@ -54,7 +54,7 @@ UPDATE movies SET show_time = '18.20' WHERE title ='Guardians of the Galaxy 2';
 Delete multiple entries from your table in a single command.
 
 '''SQL
-DELETE name FROM people;
+DELETE FROM movies WHERE title LIKE '%Avengers%';
 '''
 
 10.Select all the movies ordered by year in descending order
